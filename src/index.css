@@ -36,6 +36,23 @@
     text-transform: capitalize;
 }
 
+.hero-custom-text3 {
+    font-family: Impact;
+}
+
+.hero-custom-text4 {
+    background: var(--Rizz-bg-gradient-3, linear-gradient(180deg, #C1842D 0%, #ECC974 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Impact;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
 .hero-custom-btn {
     display: inline-block;
     padding: 2px;
@@ -60,4 +77,34 @@
     padding: 16px 28px;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+.category-wrapper {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 376px 44px 376px;
+}
+
+.product-card-text {
+    background: var(--Rizz-bg-gradient-3, linear-gradient(180deg, #C1842D 0%, #ECC974 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.product-card-top-text {
+    background: var(--Rizz-gradient, linear-gradient(269deg, #A75356 1.04%, #D78C6C 98.57%));
+}
+
+.product-card-top-text2 {
+    border-radius: 0px 12px;
+    border-bottom: 0.5px solid var(--Rizz-gradient, #A75356);
+    border-left: 0.5px solid var(--Rizz-gradient, #A75356);
+    background: linear-gradient(180deg, rgba(108, 34, 29, 0.30) 0%, rgba(149, 65, 57, 0.30) 100%);
+}
+
+
+.product-cart-bg {
+    background: var(--Rizz-bg-gradient-3, linear-gradient(180deg, #C1842D 0%, #ECC974 100%));
 }
