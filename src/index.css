@@ -108,3 +108,40 @@
 .product-cart-bg {
     background: var(--Rizz-bg-gradient-3, linear-gradient(180deg, #C1842D 0%, #ECC974 100%));
 }
+
+.ad-custom-header {
+    font-family: Impact;
+}
+
+.swiper-wrapper {
+    padding-bottom: 80px !important;
+}
+
+.swiper-pagination-bullet {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50% !important;
+    background: #727279 !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50% !important;
+    background: #B9B8B8 !important;
+}
+
+.swiper-pagination {
+    position: absolute !important;
+    bottom: 0px !important;
+    /* left: 50% !important; */
+    /* transform: translateX(50%) !important; */
+    width: 100% !important;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer-bg {
+    background: linear-gradient(180deg, rgba(61, 85, 204, 0.70) 0%, rgba(31, 31, 31, 0.10) 100%);
+}

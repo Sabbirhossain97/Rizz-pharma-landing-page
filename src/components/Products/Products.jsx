@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/bundle";
 import { Navigation, FreeMode } from "swiper/modules";
-import { Cart, NextArrow } from '../SVG/SVG';
+import { Cart, NextArrow, NextPageArrow } from '../SVG/SVG';
 
 function Products() {
 
@@ -25,19 +25,19 @@ function Products() {
                     <h1>Solutions for Your <span className='hero-custom-text4'>Unique</span> Health Goals</h1>
                 </div>
             </div>
-            <div className='flex items-center mt-[63.5px] gap-[12px]'>
+            <div className='flex mt-[63.5px] gap-[12px]'>
                 <div>
                     <button className='cursor-pointer hover:text-[#1F1F1F] hover:bg-[#E1C06E] hover:border-none rounded-full border border-white px-[29.5px] py-[18.5px] text-white transition-all '>
                         All
                     </button>
                 </div>
-                <div >
+                <div>
                     <Swiper
                         slidesPerView="auto"
                         spaceBetween={10}
                         freeMode={true}
                         modules={[Navigation, FreeMode]}
-                        className="flex justify-center items-center font-montreal"
+                        className="flex justify-center font-montreal"
                         navigation={{
                             nextEl: ".custom-next",
                             prevEl: ".custom-prev",
@@ -60,7 +60,7 @@ function Products() {
                     </button>
                 </div>
             </div>
-            <div className="mt-[66px]">
+            <div>
                 <div className="grid grid-cols-4 gap-[30px]">
                     <div className="rounded-[12px] bg-[#31418C4D] h-[262px] overflow-hidden relative">
                         <div className="absolute right-0 top-0 product-card-top-text rounded-[0px_12px]">
@@ -199,6 +199,16 @@ function Products() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-center gap-[32px] mt-[50px]">
+                <button
+                    className='cursor-pointer rotate-180 flex justify-center items-center custom-next hover:text-[#1F1F1F] bg-[#E1C06E] hover:border-none rounded-full w-[60px] h-[60px] text-white transition-all '>
+                    <NextPageArrow />
+                </button>
+                <button
+                    className='cursor-pointer custom-next flex justify-center items-center hover:text-[#1F1F1F] bg-[#E1C06E] hover:border-none rounded-full w-[60px] h-[60px] text-white transition-all '>
+                    <NextPageArrow />
+                </button>
             </div>
         </div>
     )

@@ -1,9 +1,10 @@
+import Advertisement from "../Advertisements/Advertisement"
 import Products from "../Products/Products"
 import Support from "../Support/Support"
 
 function Categories() {
     return (
-        <section className='mx-auto min-h-[3333px] bg-no-repeat bg-top border -mt-20'
+        <section className='mx-auto min-h-[2800px] bg-no-repeat bg-top -mt-20'
             style={{ backgroundImage: "url('src/assets/bg_artwork_2.png')" }}
         >
             <div className='max-w-[1170px] mx-auto'>
@@ -68,6 +69,7 @@ function Categories() {
                 <Support />
             </div>
             <Products/>
+            <Advertisement/>
         </section>
     )
 }
