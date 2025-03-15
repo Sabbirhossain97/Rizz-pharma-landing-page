@@ -15,7 +15,7 @@ function Categories() {
                     <div className="grid gap-[15px] md:gap-[30px] grid-cols-2 grid-rows-3 md:grid-cols-3 md:grid-rows-[376px_auto_376px]">
 
                         <div className="md:col-start-1 md:row-span-2 relative cursor-pointer">
-                            <img src="src/assets/category-1.png" className="rounded-[24px] w-full h-full object-cover" />
+                            <img src="src/assets/category-1.png" className="rounded-[24px] w-full h-full object-cover" alt="category-1" />
                             <p className="absolute flex flex-col left-[24px] top-[24px] text-[24px] leading-[28px] sm:text-[36px] text-white font-montreal font-medium sm:leading-[43.2px]">
                                 <span>Weight</span>
                                 <span>Loss</span>
@@ -23,7 +23,7 @@ function Categories() {
                         </div>
 
                         <div className="md:col-start-2 md:row-start-1 relative cursor-pointer">
-                            <img src="src/assets/category-2.png" className="rounded-[24px] w-full h-full object-cover" />
+                            <img src="src/assets/category-2.png" className="rounded-[24px] w-full h-full object-cover" alt="category-2" />
                             <p className="absolute flex flex-col left-[24px] top-[24px] text-[24px] leading-[28px] sm:text-[36px] text-white font-montreal font-medium sm:leading-[43.2px]">
                                 <span>Sexual</span>
                                 <span>Health</span>
@@ -31,7 +31,7 @@ function Categories() {
                         </div>
 
                         <div className="md:col-start-3 md:row-span-2 relative cursor-pointer">
-                            <img src="src/assets/category-3.png" className="rounded-[24px] w-full h-full object-cover" />
+                            <img src="src/assets/category-3.png" className="rounded-[24px] w-full h-full object-cover" alt="category-3" />
                             <p className="absolute flex flex-col left-[24px] top-[24px] text-[24px] leading-[28px] sm:text-[36px] text-white font-montreal font-medium sm:leading-[43.2px]">
                                 <span>Brain</span>
                                 <span>Health</span>
@@ -39,7 +39,7 @@ function Categories() {
                         </div>
 
                         <div className="md:col-start-1 md:row-start-3 relative cursor-pointer">
-                            <img src="src/assets/category-4.png" className="rounded-[24px] w-full h-full object-cover" />
+                            <img src="src/assets/category-4.png" className="rounded-[24px] w-full h-full object-cover" alt="category-4" />
                             <p className="absolute flex flex-col left-[24px] top-[24px] text-[24px] leading-[28px] sm:text-[36px] text-white font-montreal font-medium sm:leading-[43.2px]">
                                 <span>Testosterone</span>
                                 <span>HRT</span>
@@ -47,7 +47,7 @@ function Categories() {
                         </div>
 
                         <div className="md:col-start-2 md:row-start-2 row-span-2 relative cursor-pointer">
-                            <img src="src/assets/category-5.png" className="rounded-[24px] w-full h-full object-cover" />
+                            <img src="src/assets/category-5.png" className="rounded-[24px] w-full h-full object-cover" alt="category-5" />
                             <p className="absolute flex flex-col left-[24px] top-[24px] text-[24px] leading-[28px] sm:text-[36px] text-white font-montreal font-medium sm:leading-[43.2px]">
                                 <span>Athletic</span>
                                 <span>Performance</span>
@@ -55,7 +55,7 @@ function Categories() {
                         </div>
 
                         <div className="md:col-start-3 md:row-start-3 row-span-2 md:row-auto relative cursor-pointer">
-                            <img src="src/assets/category-6.png" className="rounded-[24px] w-full h-full object-cover" />
+                            <img src="src/assets/category-6.png" className="rounded-[24px] w-full h-full object-cover" alt="category-6" />
                             <p className="absolute flex flex-col left-[24px] top-[24px] text-[24px] leading-[28px] sm:text-[36px] text-white font-montreal font-medium sm:leading-[43.2px]">
                                 <span>Beauty and</span>
                                 <span>Hair Loss</span>
