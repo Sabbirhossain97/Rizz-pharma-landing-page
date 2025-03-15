@@ -68,7 +68,7 @@ function Products() {
                             <h3 className="px-[15.5px] font-montreal pt-[5px] pb-[7px]  text-white text-[13px] font-normal leading-[15.6px]">Research use only</h3>
                         </div>
                         <div className="flex items-center gap-[24px] h-[calc(100%-65px)] ml-[20px] pt-[20px] mr-[16px]">
-                            <img src='src/assets/Retarutide.png' />
+                            <img src='/assets/Retarutide.png' />
                             <h3 className="font-montreal text-[18px] font-medium leading-[21.6px] product-card-text">Retarutide</h3>
                         </div>
                         <div className="h-[65px] flex justify-between bg-[#1F1F1F4D]">
@@ -87,7 +87,7 @@ function Products() {
                             <h3 className="px-[15.5px] font-montreal pt-[5px] pb-[7px]  text-white text-[13px] font-normal leading-[15.6px]">Research use only</h3>
                         </div>
                         <div className="flex items-center gap-[24px] h-[calc(100%-65px)] ml-[20px] pt-[20px] mr-[16px]">
-                            <img src='src/assets/Lyopholized.png' />
+                            <img src='/assets/Lyopholized.png' />
                             <h3 className="font-montreal text-[18px] font-medium leading-[21.6px] product-card-text">Lyopholized
                                 Glow (GHK-CU/ BPC-157/TB-500)</h3>
                         </div>
@@ -107,7 +107,7 @@ function Products() {
                             <h3 className="px-[15.5px] font-montreal pt-[5px] pb-[7px] text-white text-[13px] font-normal leading-[15.6px]">Recurring Plan</h3>
                         </div>
                         <div className="flex items-center gap-[24px] h-[calc(100%-65px)] ml-[20px] pt-[20px] mr-[16px]">
-                            <img src='src/assets/Sermorelin.png' />
+                            <img src='/assets/Sermorelin.png' />
                             <h3 className="font-montreal text-[18px] font-medium leading-[21.6px] product-card-text">Compounded
                                 Sermorelin 15mg</h3>
                         </div>
@@ -124,7 +124,7 @@ function Products() {
                     </div>
                     <div className="rounded-[12px] bg-[#31418C4D] h-[262px] overflow-hidden relative">
                         <div className="flex items-center gap-[24px] h-[calc(100%-65px)] ml-[20px] pt-[20px] mr-[16px]">
-                            <img src='src/assets/Lpamorelin.png' />
+                            <img src='/assets/Lpamorelin.png' />
                             <h3 className="font-montreal text-[18px] font-medium leading-[21.6px] product-card-text">2X CJC / Ipamorelin</h3>
                         </div>
                         <div className="h-[65px] flex justify-between bg-[#1F1F1F4D]">
@@ -142,7 +142,7 @@ function Products() {
                     </div>
                     <div className="rounded-[12px] bg-[#31418C4D] h-[262px] overflow-hidden relative">
                         <div className="flex items-center gap-[24px] h-[calc(100%-65px)] ml-[20px] pt-[20px] mr-[16px]">
-                            <img src='src/assets/Oxytocin.png' />
+                            <img src='/assets/Oxytocin.png' />
                             <h3 className="font-montreal text-[18px] font-medium leading-[21.6px] product-card-text">Lyopholized Oxytocins</h3>
                         </div>
                         <div className="h-[65px] flex justify-between bg-[#1F1F1F4D]">
@@ -161,7 +161,7 @@ function Products() {
                             <h3 className="px-[15.5px] font-montreal pt-[5px] pb-[7px] text-white text-[13px] font-normal leading-[15.6px]">Recurring Plan</h3>
                         </div>
                         <div className="flex items-center h-[calc(100%-65px)] pt-[20px] mr-[16px]">
-                            <img src='src/assets/Finasteride.png' />
+                            <img src='/assets/Finasteride.png' />
                             <h3 className="font-montreal text-[18px] font-medium leading-[21.6px] w-full product-card-text break-words">Lyopholized Finasteride 1mg</h3>
                         </div>
                         <div className="h-[65px] flex justify-between bg-[#1F1F1F4D]">
@@ -177,7 +177,7 @@ function Products() {
                     </div>
                     <div className="rounded-[12px] bg-[#31418C4D] h-[262px] overflow-hidden relative">
                         <div className="flex items-center gap-[24px] h-[calc(100%-65px)] ml-[20px] pt-[20px] mr-[16px]">
-                            <img src='src/assets/NAD.png' />
+                            <img src='/assets/NAD.png' />
                             <h3 className="font-montreal text-[18px] font-medium leading-[21.6px] product-card-text">Compounded NAD+ 1000 mg</h3>
                         </div>
                         <div className="h-[65px] flex justify-between bg-[#1F1F1F4D]">
@@ -197,7 +197,7 @@ function Products() {
                             <h3 className="px-[15.5px] font-montreal pt-[5px] pb-[7px] text-white text-[13px] font-normal leading-[15.6px]">Recurring Plan</h3>
                         </div>
                         <div className="flex items-center gap-[24px] h-[calc(100%-65px)] ml-[20px] pt-[20px]">
-                            <img src='src/assets/Lyopholized-PT.png' />
+                            <img src='/assets/Lyopholized-PT.png' />
                             <h3 className="font-montreal text-[18px] font-medium leading-[21.6px] product-card-text">Lyopholized
                                 PT- 141
                                 10mg </h3>

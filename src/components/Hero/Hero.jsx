@@ -6,7 +6,7 @@ function Hero() {
     return (
         <section
             className="relative w-full bg-[60%_top] bg-[2300px_auto] md:bg-auto min-h-[1100px] md:min-h-[1220px] bg-no-repeat md:bg-center"
-            style={{ backgroundImage: "url('src/assets/hero.jpg')" }}
+            style={{ backgroundImage: "url('/assets/hero.jpg')" }}
         >
             <Navbar />
             <div className='max-w-[1170px] px-6 custom1:px-0 mx-auto mt-[300px] sm:mt-[353px] md:mt-[53px]'>

@@ -49,7 +49,7 @@ function Footer() {
                     <div className='max-w-[1170px] mx-auto mt-[60px]'>
                         <div className='flex flex-col items-center lg:flex-row gap-[24px] md:gap-[0px]'>
                             <div className='w-1/2 pl-0 lg:pl-[110px] flex items-center justify-center lg:justify-start'>
-                                <img src='src/assets/footer-logo-1.png' alt='logo-1' />
+                                <img src='/assets/footer-logo-1.png' alt='logo-1' />
                             </div>
                             <div className='flex flex-col items-center lg:items-start gap-[26px] w-1/2'>
                                 <div>
@@ -67,7 +67,7 @@ function Footer() {
                                     </ul>
                                 </div>
                                 <div className='flex flex-col lg:flex-row gap-[22px] items-center md:items-center'>
-                                    <img src='src/assets/footer-logo-2.png' alt='logo-2' />
+                                    <img src='/assets/footer-logo-2.png' alt='logo-2' />
                                     <div>
                                         <p className='text-white text-center lg:text-start font-montreal text-[16px] font-normal leading-[25.6px]'>Copyright © 2024 Rizz Pharma All Right Reserved - Built by Business Web Social</p>
                                     </div>
@@ -77,7 +77,7 @@ function Footer() {
                     </div>
                     {/* third section */}
                     <div className='mt-[50px]'>
-                        <img src='src/assets/Branding.png' alt='branding' />
+                        <img src='/assets/Branding.png' alt='branding' />
                     </div>
                 </div>
             </div>

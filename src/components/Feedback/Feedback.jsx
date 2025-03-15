@@ -12,7 +12,7 @@ import Footer from '../Footer/Footer';
 function Feedback() {
     return (
         <section className='mx-auto min-h-[1540px] bg-no-repeat bg-top relative -mt-72 '
-            style={{ backgroundImage: "url('src/assets/bg_artwork_2.png')" }}
+            style={{ backgroundImage: "url('/assets/bg_artwork_2.png')" }}
         >
             <div className='pt-[153px] px-6 custom1:px-0'>
                 <div>
@@ -48,8 +48,8 @@ function Feedback() {
                             key={index}
                             className="relative rounded-[15.5px]"
                         >
-                            <div className="w-auto relative text-white p-6 rounded-2xl shadow-lg space-y-4"
-                                style={{ backgroundImage: "url('src/assets/feedback-card-bg.png')" }}
+                            <div className="w-auto relative text-white px-6 py-4 rounded-2xl shadow-lg space-y-4"
+                                style={{ backgroundImage: "url('/assets/feedback-card-bg.png')" }}
                             >
                                 <Quote />
                                 <p className="text-gray-300  text-[18px] font-montreal font-normal leading-[28.8px] mt-[50px] px-[15px]">
@@ -66,7 +66,7 @@ function Feedback() {
                                 <div className="flex gap-[10px] justify-center items-center space-x-3 mt-[53px] pb-[38px]">
                                     <img
                                         className="w-[60px] h-[60px] rounded-full"
-                                        src="src/assets/feedback-card-avatar.png"
+                                        src="/assets/feedback-card-avatar.png"
                                         alt="User"
                                     />
                                     <div>

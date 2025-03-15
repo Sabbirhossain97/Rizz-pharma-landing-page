@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <div className='pt-[20px] md:pt-[50px] max-w-[1170px] px-6 custom1:px-0 mx-auto flex justify-between relative font-montreal'>
             <div className='flex items-center gap-[10px] cursor-pointer'>
-                <img src='src/assets/logo.png' className='w-3/4 lg:w-full' />
+                <img src='/assets/logo.png' className='w-3/4 lg:w-full' />
             </div>
             <div >
                 <ul className='hidden md:flex whitespace-nowrap text-[#FAF8F2]  text-[14px] lg:text-[16px] font-normal leading-[140%] drop-shadow-[0_2px_10px_rgba(0,0,0,0.25)]'>
