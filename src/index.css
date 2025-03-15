@@ -13,6 +13,16 @@
     --font-montreal: "Neue Montreal", "sans-serif"
 }
 
+@theme {
+    --breakpoint-custom1: 1170px;
+    --breakpoint-custom2: 1200px;
+    --breakpoint-custom3: 800px;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
 .hero-custom-text1 {
     color: var(--Rizz-white, #FFF);
     font-family: Impact;
@@ -21,6 +31,12 @@
     font-weight: 400;
     line-height: 120%;
     text-transform: capitalize;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-custom-text1 {
+        font-size: 36px;
+    }
 }
 
 .hero-custom-text2 {
@@ -36,6 +52,12 @@
     text-transform: capitalize;
 }
 
+@media only screen and (max-width: 768px) {
+    .hero-custom-text2 {
+        font-size: 36px;
+    }
+}
+
 .hero-custom-text3 {
     font-family: Impact;
 }
@@ -46,7 +68,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Impact;
-    font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
@@ -65,6 +86,10 @@
     cursor: pointer;
 }
 
+.hero-custom-btn:hover {
+    background: linear-gradient(90deg, #db3086 0%, #0931c2 100%);
+}
+
 .hero-custom-btn span {
     display: inline-block;
     background-color: #22242d;
@@ -77,6 +102,17 @@
     padding: 16px 28px;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+
+.hero-custom-btn span:hover {
+    background-color: #2e303b;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hero-custom-btn span {
+        font-size: 14px;
+    }
 }
 
 .category-wrapper {
@@ -107,6 +143,10 @@
 
 .product-cart-bg {
     background: var(--Rizz-bg-gradient-3, linear-gradient(180deg, #C1842D 0%, #ECC974 100%));
+}
+
+.product-cart-bg:hover {
+    background: var(--Rizz-bg-gradient-3, linear-gradient(180deg, #e79016 0%, #bda368 100%));
 }
 
 .ad-custom-header {

@@ -19,29 +19,30 @@ function Products() {
     ];
 
     return (
-        <div className='max-w-[1170px] mx-auto'>
+        <div className='max-w-[1170px] px-6 custom1:px-0 mx-auto'>
             <div>
-                <div className='text-center mt-[153px] hero-custom-text3 text-white text-[48px] font-normal capitalize leading-[57.6px]'>
+                <div className='text-center mt-[153px] hero-custom-text3 text-white text-[32px] md:text-[48px] font-normal capitalize leading-[57.6px]'>
                     <h1>Solutions for Your <span className='hero-custom-text4'>Unique</span> Health Goals</h1>
                 </div>
             </div>
             <div className='flex mt-[63.5px] gap-[12px]'>
-                <div>
+                <div >
                     <button className='cursor-pointer hover:text-[#1F1F1F] hover:bg-[#E1C06E] hover:border-none rounded-full border border-white px-[29.5px] py-[18.5px] text-white transition-all '>
                         All
                     </button>
                 </div>
-                <div>
+                <div className="overflow-hidden">
                     <Swiper
                         slidesPerView="auto"
                         spaceBetween={10}
                         freeMode={true}
                         modules={[Navigation, FreeMode]}
-                        className="flex justify-center font-montreal"
+                        className="flex max-w-[1170px] justify-center font-montreal"
                         navigation={{
                             nextEl: ".custom-next",
                             prevEl: ".custom-prev",
                         }}
+
                     >
                         {categories.map((category, index) => (
                             <SwiperSlide
@@ -61,7 +62,7 @@ function Products() {
                 </div>
             </div>
             <div>
-                <div className="grid grid-cols-4 gap-[30px]">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px]">
                     <div className="rounded-[12px] bg-[#31418C4D] h-[262px] overflow-hidden relative">
                         <div className="absolute right-0 top-0 product-card-top-text rounded-[0px_12px]">
                             <h3 className="px-[15.5px] font-montreal pt-[5px] pb-[7px]  text-white text-[13px] font-normal leading-[15.6px]">Research use only</h3>
@@ -74,8 +75,10 @@ function Products() {
                             <div className="flex items-center w-[calc(100%-87px)] ml-6 text-white font-montreal text-[12px] font-normal leading-[19.2px]">
                                 <h3>$39.99/per month</h3>
                             </div>
-                            <div className="flex items-center justify-center w-[87px] product-cart-bg">
-                                <Cart />
+                            <div className="flex items-center justify-center w-[87px] product-cart-bg cursor-pointer">
+                                <button>
+                                    <Cart />
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -92,8 +95,10 @@ function Products() {
                             <div className="flex items-center w-[calc(100%-87px)] ml-6 text-white font-montreal text-[12px] font-normal leading-[19.2px]">
                                 <h3>$39.99/per month</h3>
                             </div>
-                            <div className="flex items-center justify-center w-[87px] product-cart-bg">
-                                <Cart />
+                            <div className="flex items-center justify-center w-[87px] product-cart-bg cursor-pointer">
+                                <button>
+                                    <Cart />
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -110,8 +115,10 @@ function Products() {
                             <div className="flex items-center w-[calc(100%-87px)] ml-6 text-white font-montreal text-[12px] font-normal leading-[19.2px]">
                                 <h3>Starting at $179 Monthly +  $45 Physician consult</h3>
                             </div>
-                            <div className="flex items-center justify-center w-[87px] product-cart-bg">
-                                <Cart />
+                            <div className="flex items-center justify-center w-[87px] product-cart-bg cursor-pointer">
+                                <button>
+                                    <Cart />
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -126,8 +133,10 @@ function Products() {
                                     $45 Physician consult +
                                     $100 Lab Charge</h3>
                             </div>
-                            <div className="flex items-center justify-center w-[87px] product-cart-bg">
-                                <Cart />
+                            <div className="flex items-center justify-center w-[87px] product-cart-bg cursor-pointer">
+                                <button>
+                                    <Cart />
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -140,8 +149,10 @@ function Products() {
                             <div className="flex items-center w-[calc(100%-87px)] ml-6 text-white font-montreal text-[12px] font-normal leading-[19.2px]">
                                 <h3>$39.99/per month</h3>
                             </div>
-                            <div className="flex items-center justify-center w-[87px] product-cart-bg">
-                                <Cart />
+                            <div className="flex items-center justify-center w-[87px] product-cart-bg cursor-pointer">
+                                <button>
+                                    <Cart />
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -157,8 +168,10 @@ function Products() {
                             <div className="flex items-center w-[calc(100%-87px)] ml-6 text-white font-montreal text-[12px] font-normal leading-[19.2px]">
                                 <h3>$39.99/per month</h3>
                             </div>
-                            <div className="flex items-center justify-center w-[87px] product-cart-bg">
-                                <Cart />
+                            <div className="flex items-center justify-center w-[87px] product-cart-bg cursor-pointer">
+                                <button>
+                                    <Cart />
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -172,8 +185,10 @@ function Products() {
                                 <h3>Starting at $179 Monthly +
                                     $45 Physician consult</h3>
                             </div>
-                            <div className="flex items-center justify-center w-[87px] product-cart-bg">
-                                <Cart />
+                            <div className="flex items-center justify-center w-[87px] product-cart-bg cursor-pointer">
+                                <button>
+                                    <Cart />
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -193,8 +208,10 @@ function Products() {
                                     $45 Physician consult +
                                     $100 Lab Charge</h3>
                             </div>
-                            <div className="flex items-center justify-center w-[87px] product-cart-bg">
-                                <Cart />
+                            <div className="flex items-center justify-center w-[87px] product-cart-bg cursor-pointer">
+                                <button>
+                                    <Cart />
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -202,11 +219,11 @@ function Products() {
             </div>
             <div className="flex justify-center gap-[32px] mt-[50px]">
                 <button
-                    className='cursor-pointer rotate-180 flex justify-center items-center custom-next hover:text-[#1F1F1F] bg-[#E1C06E] hover:border-none rounded-full w-[60px] h-[60px] text-white transition-all '>
+                    className='cursor-pointer rotate-180 flex justify-center items-center custom-next hover:text-[#1F1F1F] bg-[#E1C06E] hover:bg-[#fcdc8c] hover:border-none rounded-full w-[60px] h-[60px] text-white transition-all '>
                     <NextPageArrow />
                 </button>
                 <button
-                    className='cursor-pointer custom-next flex justify-center items-center hover:text-[#1F1F1F] bg-[#E1C06E] hover:border-none rounded-full w-[60px] h-[60px] text-white transition-all '>
+                    className='cursor-pointer custom-next flex justify-center items-center hover:text-[#1F1F1F] bg-[#E1C06E] hover:bg-[#fcdc8c] hover:border-none rounded-full w-[60px] h-[60px] text-white transition-all '>
                     <NextPageArrow />
                 </button>
             </div>

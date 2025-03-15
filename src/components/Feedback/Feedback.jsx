@@ -11,19 +11,19 @@ import Footer from '../Footer/Footer';
 
 function Feedback() {
     return (
-        <section className='mx-auto min-h-[1540px] bg-no-repeat bg-top -mt-44 '
+        <section className='mx-auto min-h-[1540px] bg-no-repeat bg-top relative -mt-72 '
             style={{ backgroundImage: "url('src/assets/bg_artwork_2.png')" }}
         >
-            <div className='pt-[800px]'>
+            <div className='pt-[153px] px-6 custom1:px-0'>
                 <div>
-                    <div className='text-center hero-custom-text3 text-white text-[48px] font-normal capitalize leading-[57.6px]'>
+                    <div className='text-center hero-custom-text3 text-white text-[32px] md:text-[48px] font-normal capitalize leading-[57.6px]'>
                         <h1>Hear What <span className='hero-custom-text4'>Rizz</span> Patients Have To Say</h1>
                     </div>
                 </div>
             </div>
-            <div className='mt-[45px] max-w-[1700px] mx-auto'>
+            <div className='mt-[45px] max-w-[1170px] px-6 custom1:px-0 mx-auto'>
                 <Swiper
-                    slidesPerView="4"
+                    slidesPerView="3"
                     spaceBetween={16}
                     freeMode={true}
                     modules={[FreeMode, Pagination]}
@@ -31,13 +31,24 @@ function Feedback() {
                     pagination={{
                         clickable: true,
                     }}
+                    breakpoints={{
+                        320: {
+                            slidesPerView: 1
+                        },
+                        640: {
+                            slidesPerView: 2
+                        },
+                        1064: {
+                            slidesPerView: 3
+                        }
+                    }}
                 >
                     {Array(7).fill(null).map((_, index) => (
                         <SwiperSlide
                             key={index}
                             className="relative rounded-[15.5px]"
                         >
-                            <div className="max-w-[414px] relative h-[440px] text-white p-6 rounded-2xl shadow-lg space-y-4"
+                            <div className="w-auto relative text-white p-6 rounded-2xl shadow-lg space-y-4"
                                 style={{ backgroundImage: "url('src/assets/feedback-card-bg.png')" }}
                             >
                                 <Quote />
@@ -68,7 +79,7 @@ function Feedback() {
                     ))}
                 </Swiper>
             </div>
-            {/* <Footer/> */}
+            <Footer />
         </section>
     )
 }
